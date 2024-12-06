@@ -17,8 +17,8 @@ RUN curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/i
 
 RUN mkdir source
 RUN mkdir sourcecode
-RUN mkdir /github
-RUN mkdir /github/workspace
+#RUN mkdir /github
+#RUN mkdir /github/workspace
 
 WORKDIR /source
 
