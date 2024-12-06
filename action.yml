@@ -5,7 +5,7 @@ description: "A GitHub Action pmd sca12n"
 inputs:
   extracommand:
     description: 'The code path.'
-    default: ''
+    default: '-no-cache'
     required: false
 runs:
   using: "docker"
