@@ -1,7 +1,7 @@
 ---
 name: "pmdscan
 author: "github-test-user"
-description: "A GitHub Action pmd scan"
+description: "A GitHub Action pmd sca12n"
 inputs:
   codePath:
     description: 'The code path.'
