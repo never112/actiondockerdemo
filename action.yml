@@ -1,10 +1,17 @@
 ---
-name: "issue-metrics-test-uddser"
+name: "pmdscan
 author: "github-test-user"
-description: "A GitHub Action to report out issue metrics"
+description: "A GitHub Action pmd scan"
+inputs:
+  codePath:
+    description: 'The code path.'
+    default: ''
+    required: false
 runs:
   using: "docker"
-  image: "docker://ghcr.io/github/issue_metrics:v3"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.codePath }}
 branding:
   icon: "check-square"
   color: "white"
