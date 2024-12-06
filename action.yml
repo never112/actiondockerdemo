@@ -1,5 +1,5 @@
 ---
-name: "pmdscan
+name: "pmdscan"
 author: "github-test-user"
 description: "A GitHub Action pmd sca12n"
 inputs:
